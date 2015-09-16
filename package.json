@@ -1,0 +1,22 @@
+{
+  "name": "meteor-generate",
+  "version": "1.0.0",
+  "description": "Generators for templates etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "author": "Jakub Bilko",
+  "license": "ISC",
+  "bin": {
+    "meteor-generate": "index.js"
+  },
+  "dependencies": {
+    "replacestream": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubbilko/meteor-generate"
+  }
+}
